@@ -1,0 +1,16 @@
+{
+    "extends": "../../../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": false
+    },
+    "_comment": "Leaving `noImplicitAny` above set to its default `true` causes the build to fail because of lack of compliance in @joplin/renderer/HtmlToHtml. Would love to find a better way to disable that failure without disabling the option for this package, but this was faster.",
+
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+    ],
+    "exclude": [
+        "**/node_modules"
+    ],
+}

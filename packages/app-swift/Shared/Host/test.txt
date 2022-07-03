@@ -1,0 +1,5 @@
+ERROR in /Users/kylealanhale/Developer/joplin/packages/app-swift/Shared/Host/src/index.ts
+./src/index.ts
+[tsl] ERROR in /Users/kylealanhale/Developer/joplin/packages/app-swift/Shared/Host/src/index.ts(4,31)
+      TS2551: Property 'titlesFromBody' does not exist on type '{ escapeTitleText(text: string): string; escapeLinkUrl(url: string): string; escapeTableCell(text: string): string; escapeInlineCode(text: string): string; unescapeLinkUrl(url: string): string; ... 12 more ...; titleFromBody(body: string): string; }'. Did you mean 'titleFromBody'?
+

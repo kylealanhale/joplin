@@ -1,0 +1,20 @@
+{
+    "name": "@joplin/swift-javascript-host",
+    "version": "0.1.0",
+    "description": "Hosts the Joplin library internals to surface them to Swift",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "author": "Kyle Alan Hale",
+    "license": "MIT",
+    "dependencies": {
+        "@joplin/lib": "file:../../../lib"
+    },
+    "devDependencies": {
+        "ts-loader": "^7.0.5",
+        "typescript": "^3.9.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    }
+}
